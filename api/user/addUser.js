@@ -2,6 +2,7 @@ const Router = require('express');
 const { v4: uuidv4 } = require('uuid');
 const { Users } = require('../../models/users');
 
+
 const router = Router();
 
 router.post('/users', async (req, res) => {
